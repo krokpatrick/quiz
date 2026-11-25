@@ -19,6 +19,6 @@ export type HomeNavigation = CompositeNavigationProp<NativeStackNavigationProp<H
 
 declare global {
     namespace ReactNavigation {
-        interface RoomParamList extends RootDrawerParamList{}
+        interface RootParamList extends RootDrawerParamList{}
     }
 }
